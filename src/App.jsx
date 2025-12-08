@@ -41,7 +41,7 @@ function App() {
           >
             HT Gym Project
           </a>{' '}
-          <span style={{ color: '#4b5563' }}>(beta)</span>
+          <span style={{ color: '#4b5563' }}>(production:  12/8/2025)</span>
         </li>
       </ul>
 
