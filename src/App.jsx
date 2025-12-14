@@ -1,3 +1,7 @@
+
+import logo1 from "./assets/htgymLogo.png";
+import logo2 from "./assets/crghoustonLogo.png";
+
 function App() {
   return (
     <div
@@ -20,7 +24,7 @@ function App() {
       </h1>
 
       <p style={{ marginBottom: '2rem', color: '#4b5563' }}>
-        Welcome! This will host my new experimental tools and apps.
+        
       </p>
 
       <h2
@@ -33,21 +37,44 @@ function App() {
         Current Project
       </h2>
 
-      <ul style={{ marginBottom: '2rem', paddingLeft: '1.2rem' }}>
-        <li>
-          <a
-            href="https://htgym.operacha.org"
-            style={{ color: '#111827', textDecoration: 'underline' }}
-          >
-            HT Gym Project
-          </a>{' '}
-          <span style={{ color: '#4b5563' }}>(production:  12/8/2025)</span>
-        </li>
-      </ul>
+<ul style={{ paddingLeft: "1.2rem", listStyle: "none" }}>
+  <li style={{ marginBottom: "0.75rem" }}>
+    <div
+      style={{
+        display: "flex",
+        alignItems: "center",
+        gap: "0.5rem",
+      }}
+    >
+      <a
+        href="https://htgym.operacha.org"
+        style={{
+          color: "#111827",
+          textDecoration: "underline",
+          display: "inline-flex",
+          alignItems: "center",
+          gap: "0.5rem",
+        }}
+      >
+        <img
+          src={logo1}
+          alt="HT Gym logo"
+          style={{ height: "24px" }}
+        />
+        HT Gym Project
+      </a>
+
+      <span style={{ color: "#4b5563" }}>
+        (production: 12/08/2025)
+      </span>
+    </div>
+  </li>
+</ul>
 
       <h2
         style={{
           fontSize: '1.5rem',
+          marginTop: '5rem',
           marginBottom: '0.5rem',
           color: '#111827',
         }}
@@ -55,18 +82,40 @@ function App() {
         Other Apps
       </h2>
 
-      <ul style={{ paddingLeft: '1.2rem' }}>
-        <li>
-          <a
-            href="https://crghouston.org"
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{ color: '#2563eb' }}
-          >
-            Community Resources Guide (crghouston.org)
-          </a>
-        </li>
-      </ul>
+     <ul style={{ paddingLeft: "1.2rem", listStyle: "none" }}>
+  <li style={{ marginBottom: "0.75rem" }}>
+    <div
+      style={{
+        display: "flex",
+        alignItems: "center",
+        gap: "0.5rem",
+      }}
+    >
+      <a
+        href="https://crghouston.org"
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{
+          color: "#2563eb",
+          textDecoration: "underline",
+          display: "inline-flex",
+          alignItems: "center",
+          gap: "0.5rem",
+        }}
+      >
+        <img
+          src={logo2}
+          alt="Community Resources Guide logo"
+          style={{ height: "24px" }}
+        />
+        Community Resources Guide Houston
+      </a>
+      <span style={{ color: "#4b5563" }}>
+        (production: 5/15/2024)
+      </span>
+    </div>
+  </li>
+</ul>
     </div>
   );
 }
