@@ -1,6 +1,7 @@
 
 import logo1 from "./assets/htgymLogo.png";
 import logo2 from "./assets/crghoustonLogo.png";
+import logo3 from "./assets/caminopythonLogo.png";
 
 function App() {
   return (
@@ -116,6 +117,42 @@ function App() {
     </div>
   </li>
 </ul>
+
+     <ul style={{ paddingLeft: "1.2rem", listStyle: "none" }}>
+  <li style={{ marginBottom: "0.75rem" }}>
+    <div
+      style={{
+        display: "flex",
+        alignItems: "center",
+        gap: "0.5rem",
+      }}
+    >
+      <a
+        href=""
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{
+          color: "#2563eb",
+          textDecoration: "underline",
+          display: "inline-flex",
+          alignItems: "center",
+          gap: "0.5rem",
+        }}
+      >
+        <img
+          src={logo3}
+          alt="Coamino Python logo"
+          style={{ height: "24px" }}
+        />
+        Camino Python - iPhone app
+      </a>
+      <span style={{ color: "#4b5563" }}>
+        (production: 10/01/2025)
+      </span>
+    </div>
+  </li>
+</ul>
+
     </div>
   );
 }
