@@ -35,7 +35,52 @@ function App() {
           color: '#111827',
         }}
       >
-        Current Project
+        Development Projects
+      </h2>
+
+<ul style={{ paddingLeft: "1.2rem", listStyle: "none" }}>
+  <li style={{ marginBottom: "0.75rem" }}>
+    <div
+      style={{
+        display: "flex",
+        alignItems: "center",
+        gap: "0.5rem",
+      }}
+    >
+      <a
+        href="https://crghouston.operacha.org"
+        style={{
+          color: "#111827",
+          textDecoration: "underline",
+          display: "inline-flex",
+          alignItems: "center",
+          gap: "0.5rem",
+        }}
+      >
+        <img
+          src={logo2}
+          alt="Community Resources Guide Houston logo"
+          style={{ height: "24px" }}
+        />
+        CRG 2026
+      </a>
+
+      <span style={{ color: "#4b5563" }}>
+        (scheduled: 01/31/2026)
+      </span>
+    </div>
+  </li>
+</ul>
+
+      <h2
+        style={{
+          fontSize: '1.5rem',
+          marginTop: '5rem',
+          marginBottom: '0.5rem',
+          color: '#111827',
+        }}
+      >
+        Production
       </h2>
 
 <ul style={{ paddingLeft: "1.2rem", listStyle: "none" }}>
@@ -71,17 +116,6 @@ function App() {
     </div>
   </li>
 </ul>
-
-      <h2
-        style={{
-          fontSize: '1.5rem',
-          marginTop: '5rem',
-          marginBottom: '0.5rem',
-          color: '#111827',
-        }}
-      >
-        Other Apps
-      </h2>
 
      <ul style={{ paddingLeft: "1.2rem", listStyle: "none" }}>
   <li style={{ marginBottom: "0.75rem" }}>
